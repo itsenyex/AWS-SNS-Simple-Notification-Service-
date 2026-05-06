@@ -11,12 +11,26 @@ FIFO — exactly-once processing, strict ordering, up to 300 msg/s (or 3,000 wit
 
 Supported Subscription Protocols
 Protocol            Use Case
+
+
 SQS                 Decouple services, buffer messages
+
+
 Lambda              Trigger serverless functions
+
+
 HTTP/HTTPS          Webhooks to external services
+
+
 Email/Email-JSON    Human notifications
+
+
 SMS                 Mobile text alerts
+
+
 Mobile Push         APNs (iOS), FCM (Android)
+
+
 Kinesis             FirehoseStream to S3, Redshift, etc.
 
 
