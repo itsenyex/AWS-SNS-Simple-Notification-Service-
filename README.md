@@ -9,29 +9,30 @@ Two topic types:
 Standard — at-least-once delivery, best-effort ordering, very high throughput
 FIFO — exactly-once processing, strict ordering, up to 300 msg/s (or 3,000 with batching) 
 
-Supported Subscription Protocols
-Protocol            Use Case
+Supported Subscription Protocols:
+
+Protocol______________Use Case
 
 
-SQS                 Decouple services, buffer messages
+SQS___________________Decouple services, buffer messages
 
 
-Lambda              Trigger serverless functions
+Lambda_________________Trigger serverless functions
 
 
-HTTP/HTTPS          Webhooks to external services
+HTTP/HTTPS______________Webhooks to external services
 
 
-Email/Email-JSON    Human notifications
+Email/Email-JSON______________Human notifications
 
 
-SMS                 Mobile text alerts
+SMS_________________________Mobile text alerts
 
 
-Mobile Push         APNs (iOS), FCM (Android)
+Mobile Push_________________APNs (iOS), FCM (Android)
 
 
-Kinesis             FirehoseStream to S3, Redshift, etc.
+Kinesis_____________________FirehoseStream to S3, Redshift, etc.
 
 
 
